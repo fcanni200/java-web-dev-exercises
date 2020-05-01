@@ -14,7 +14,7 @@ public class HashMapGradebook {
 
         System.out.println("Enter your students (or ENTER to finish):");
 
-        // Get student names and grades
+
         do {
 
             System.out.print("Student: ");
@@ -25,13 +25,13 @@ public class HashMapGradebook {
                 Double newGrade = input.nextDouble();
                 students.put(newStudent, newGrade);
 
-                // Read in the newline before looping back
+
                 input.nextLine();
             }
 
         } while(!newStudent.equals(""));
 
-        // Print class roster
+
         System.out.println("\nClass roster:");
         double sum = 0.0;
 
